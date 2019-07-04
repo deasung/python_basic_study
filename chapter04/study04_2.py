@@ -56,3 +56,29 @@ print(str(10.4))
 
 # 문자열 함수
 # 참조 : https://www.w3schools.com/python/python_ref_string.asp
+
+# a = 'niceman'
+# b = 'orange'
+
+# print(a.islower()) #True
+# print(b.endswith('e'))
+# print(a.capitalize()) #첫글자만 대문자
+# print(a.replace('nice','good'))
+# print(list(reversed(b))) #역순
+
+
+a = 'niceman'
+b = 'orange'
+
+
+print(a[0:3])
+print(a[0:4])
+print(a[0:7])
+print(a[0:len(a)])
+print(a[0:len(a)-1])
+print(a[:4]) #처음부터 4까지
+print(a[:]) #처음부터 끝까지
+
+print(b[0:4:2])  # 첫번째:두번째 범위 : 세번째 슬라이싱
+print(b[1:-2])
+print(b[::-1])
