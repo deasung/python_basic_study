@@ -17,6 +17,8 @@ print('2019','02','19', sep='-')
 print('niceman','google.com',sep='@')
 
 # end 옵션 사용
+# end 옵션을 사용하지 않고 print문을 사용하면 문장을 출력하고 개행을 하도록 되어 있는데 
+
 print('Welcome To', end=' ')
 print(' the black parade', end=' ')
 print('piano notes')
