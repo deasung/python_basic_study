@@ -62,3 +62,39 @@ print(model2.show())
 # Parent Method Call
 model3 = BenzCar("350s", 'sedan', 'silver')
 print(model3.show())
+
+
+# Inheritance Info
+print(BmwCar.mro())  #상속구조 [<class '__main__.BmwCar'>, <class '__main__.Car'>, <class 'object'>]
+print(BenzCar.mro()) #mro 상속정보를 리스트형태로
+
+# 예제2
+# 다중상속
+#class x(object):
+#    pass
+class X():
+    pass
+
+class Y():
+    pass
+
+class Z():
+    pass
+
+class A(X, Y):
+    pass
+
+
+class B(Y, Z):
+    pass
+
+class M(B,A,Z):
+    pass
+
+print(M.mro())
+
+
+# 너무나 복잡한 다중상속은 코드를 해석하기가 어려움이 있다. 보통은 2개정도?
+
+print(A.mro())
+
